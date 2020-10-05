@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100&display=swap');
+
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(fichiers/background.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/**----------------------------header----------------------------------------*/
+
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    vertical-align: middle;
+    font-family: 'Dosis', sans-serif;
+    color: chocolate;
+    font-weight: 500;
+    height: 80px;
+    background: rgba(241, 192, 192, 0.3)
+}
+
+#navigation-header, .lien-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    font-family: 'Dosis', sans-serif;
+    color: chocolate;
+    z-index: 1;
+}
+
+h1{
+    font-size: 1.3em;
+}
+
+#navigation-header{
+    height: 100%;
+}
+.lien-header{
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#lien-accueil, #lien-smashing, #lien-star{
+    border-left: 1px solid;
+}
+#lien-deezer{
+    border-right: 1px solid;
+    border-left: 1px solid;
+}
+#lien-accueil{
+    background: rgba(241, 192, 192, 0.45)
+}
+
+#lien-accueil:hover {
+    background-color: rgba(252, 157, 157, 0.45)
+  }
+#lien-smashing:hover, #lien-star:hover,#lien-deezer:hover{
+    background-color: rgba(228, 205, 205, 0.45)
+}
+
+
+
+/* --------------------------------------présentation des trois appli--------------------------------------- */
+
+
+
+#presentation-appli-mobile{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    font-family: 'Dosis', sans-serif;
+    color: rgb(209, 183, 164);
+}
+#presentation-appli-mobile h1{
+    text-align: center;
+    font-size: 3em;
+    margin: 3%;
+    font-family: 'Saira Condensed', sans-serif;
+}
+#image-mobile{
+    display: flex;
+    justify-content: space-around;
+}
+.vignette-mobile{
+    display: flex;
+    padding: 20px;
+    padding-right: 20px;
+    transition: transform .2s;
+}
+
+.vignette-mobile:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+/*--------------------------------footer--------------------*/
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Dosis', sans-serif;
+    background: rgba(241, 192, 192, 0.8);
+    color: chocolate;
+    font-family: 'Dosis', sans-serif;
+    margin-top: auto;
+
+}
+
+footer h5{
+margin-top: 10px;
+
+}
+
+#img-lien-footer{
+    display: flex;
+}
+
+footer img{
+    width: 30px;
+}
+
+footer a{
+   margin-right: 40px;
+   margin-bottom: 10px;
+   text-decoration: none;
+   color: chocolate;
+}
+
+
