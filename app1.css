@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100&display=swap');
+
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/**----------------------------header----------------------------------------*/
+
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    vertical-align: middle;
+    font-family: 'Dosis', sans-serif;
+    color: rgb(252, 197, 54);
+    font-weight: 500;
+    height: 80px;
+    background: rgba(78, 209, 236, 0.3)
+}
+
+#navigation-header, .lien-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    font-family: 'Dosis', sans-serif;
+    color: rgb(252, 197, 54);
+    z-index: 1;
+}
+
+h1{
+    font-size: 1.3em;
+}
+
+#navigation-header{
+    height: 100%;
+}
+.lien-header{
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#lien-accueil, #lien-smashing, #lien-star{
+    border-left: 1px solid;
+}
+#lien-deezer{
+    border-right: 1px solid;
+    border-left: 1px solid;
+}
+#lien-accueil{
+    background: rgba(78, 209, 236, 0.3)
+}
+
+#lien-accueil:hover {
+    background: rgba(59, 191, 218, 0.3)
+  }
+#lien-smashing:hover, #lien-star:hover,#lien-deezer:hover{
+    background: rgba(169, 241, 255, 0.3)
+}
+
+
+
+/* --------------------------------------présentation des trois appli--------------------------------------- */
+
+
+
+
+
+
+
+/*--------------------------------footer--------------------*/
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Dosis', sans-serif;
+    background: rgba(78, 209, 236, 0.5);
+    color: rgb(252, 197, 54);
+    font-family: 'Dosis', sans-serif;
+    margin-top: auto;
+
+}
+
+footer h5{
+margin-top: 10px;
+
+}
+
+#img-lien-footer{
+    display: flex;
+}
+
+footer img{
+    width: 30px;
+}
+
+footer a{
+   margin-right: 40px;
+   margin-bottom: 10px;
+   text-decoration: none;
+   color: rgb(252, 197, 54);
+}
+
+
