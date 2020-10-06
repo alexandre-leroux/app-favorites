@@ -31,7 +31,7 @@ header{
     color: rgb(242, 242, 242);
     font-weight: 500;
     height: 80px;
-    background: rgba(44, 44, 44, 0.5)
+    background: rgba(68, 68, 68, 0.8);
 }
 
 #navigation-header, .lien-header{
@@ -64,14 +64,14 @@ h1{
     border-left: 1px solid;
 }
 #lien-accueil{
-    background: rgba(78, 209, 236, 0.3)
+    background: rgba(61, 61, 61, 0.3)
 }
 
 #lien-accueil:hover {
-    background: rgba(59, 191, 218, 0.3)
+    background: rgba(44, 44, 44, 0.3)
   }
 #lien-smashing:hover, #lien-star:hover,#lien-deezer:hover{
-    background: rgba(169, 241, 255, 0.3)
+    background: rgba(131, 131, 131, 0.3)
 }
 
 
@@ -136,9 +136,151 @@ text-align: left;
   margin-bottom: 40px;
 }
 
+/**-----------------------------deuxieme screen------------------*/
+
+#deuxieme-ecran{
+  flex-direction: row;
+}
+
+#texte-deuxieme-section{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#texte-deuxieme-section h1{
+  font-size: 4em;
+  margin: 0;
+  text-shadow: 2px 1px 20px rgb(0, 0, 0);
+  text-align: left;
+}
+#texte-deuxieme-section p{
+  font-size: 1.6em;
+  text-shadow: 2px 1px 20px rgb(0, 0, 0);
+  text-align: left;
+  color: rgb(180, 183, 211);
+  margin-bottom: 40px;
+}
 
 
 
+#capture-ecran{
+  display: flex;
+  
+  margin: 50px;
+}
+#capture-ecran img{
+  padding: 50px;
+  
+}
+
+/**-----------------------------troisieme screen------------------*/
+
+#troisieme-ecran{
+  flex-direction: row;
+}
+
+#texte-troisieme-section{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#texte-troisieme-section h1{
+  font-size: 4em;
+  margin: 0;
+  text-shadow: 2px 1px 20px rgb(0, 0, 0);
+  text-align: left;
+}
+#texte-troisieme-section p{
+  font-size: 1.6em;
+  text-shadow: 2px 1px 20px rgb(0, 0, 0);
+  text-align: left;
+  color: rgb(180, 183, 211);
+  margin-bottom: 40px;
+}
+
+
+
+#capture-ecran2{
+  display: flex;
+  
+  margin: 50px;
+}
+#capture-ecran2 img{
+  padding: 50px;
+}
+
+
+/**-----------------------------quatrième screen------------------*/
+
+#quatrieme-ecran h1{
+  font-size: 4em;
+  margin: 0;
+  text-shadow: 2px 1px 20px rgb(0, 0, 0);
+}
+
+#quatrieme-ecran h2{
+  font-size: 3em;
+  color: rgb(180, 183, 211);
+  margin: 0;
+  text-shadow: 2px 1px 20px rgb(0, 0, 0);
+}
+
+#quatrieme-ecran p{
+  font-size: 1.5em;
+  color: rgb(180, 183, 211);
+  margin: 0;
+  text-shadow: 2px 1px 20px rgb(0, 0, 0);
+}
+
+#quatrieme-ecran iframe{
+  margin-top: 100px;
+}
+
+
+/**-----------------------------cinquième screen------------------*/
+
+
+
+
+#cinquieme-ecran {
+  flex-direction: row;
+}
+#cinquieme-ecran img{
+  margin: 40px;
+}
+
+
+/**-----------------------------sixième screen------------------*/
+
+#sixieme-ecran h1{
+font-size: 5em;
+}
+
+
+#sixieme-ecran img{
+  width: 70px;
+  padding: 0;
+}
+#sixieme-ecran ul{
+  display: flex;
+  padding: 0px;
+}
+#sixieme-ecran li{
+  list-style: none;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/**-----------------------------background-----------------*/
 
 
 
@@ -170,7 +312,7 @@ footer{
     align-items: center;
     justify-content: space-around;
     font-family: 'Dosis', sans-serif;
-    background: rgba(44, 44, 44, 0.5);
+    background: rgba(27, 27, 27, 0.8);
     color: rgb(230, 230, 230);
     font-family: 'Dosis', sans-serif;
     margin-top: auto;
