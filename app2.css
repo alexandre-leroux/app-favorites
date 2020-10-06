@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
 
 
 html, body,main {
@@ -29,7 +31,7 @@ header{
     color: rgb(242, 242, 242);
     font-weight: 500;
     height: 80px;
-    background: rgba(78, 209, 236, 0.5)
+    background: rgba(44, 44, 44, 0.5)
 }
 
 #navigation-header, .lien-header{
@@ -85,31 +87,79 @@ h1{
     text-align: center; 
     flex-direction: column;
     padding: 2vw;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-size: 4vw; 
+    color: rgb(236, 236, 236);
+    font-family: 'Quicksand', sans-serif;
+  
   }
-  section:first-of-type { 
-    text-transform: uppercase;
-    font-size: 7vw;
+
+#premier-ecran{
+  flex-direction: row;
+}
+
+#logo{
+  margin-left: 15%;
+}
+
+#presentation{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+padding-left: 10%;
+padding-right: 10%;
+  
+}
+#presentation img{
+  width: 200px;
   }
-  section:first-of-type, section.pop { 
-    color: #fff;
-    text-shadow: 0 0 5px rgba(0,0,0,0.4); 
-  }
+
+#presentation h1{
+font-size: 4em;
+margin: 0;
+text-shadow: 2px 1px 20px rgb(0, 0, 0);
+text-align: left;
+}
+#presentation h2{
+  font-size: 3em;
+  text-shadow: 2px 1px 20px rgb(0, 0, 0);
+  color: rgb(180, 183, 211);
+  text-align: left;
+}
+#presentation p{
+  font-size: 1.6em;
+  text-shadow: 2px 1px 20px rgb(0, 0, 0);
+  text-align: left;
+  color: rgb(180, 183, 211);
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
   section:nth-of-type(even) { 
-    background: #fff;
+    background: rgb(34, 34, 34)
   }
   section:nth-of-type(1) { 
-    background-image: url(fichiers/quentin-saldi-wallpaper-warrior-2.jpg); 
+    background-image: url(fichiers/starwalk2/mindaugas-vitkus-ju-dVR1jkmE-unsplash.jpg); 
   }
   section:nth-of-type(3) { 
-    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/iceland-pool-faces.jpg); 
+    background-image: url(fichiers/starwalk2/bryan-goff-f7YQo-eYHdM-unsplash.jpg); 
   }
   section:nth-of-type(5) { 
-    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/iceland-ice.jpg); 
+    background-image: url(fichiers/starwalk2/michael-aPOlpOWdHic-unsplash.jpg); 
   }
+
+  section:nth-of-type(7) { 
+    background-image: url(fichiers/starwalk2/alexander-andrews-HzT5Du-UFW8-unsplash.jpg); 
+  }
+
 
 
 
@@ -120,8 +170,8 @@ footer{
     align-items: center;
     justify-content: space-around;
     font-family: 'Dosis', sans-serif;
-    background: rgba(78, 209, 236, 0.5);
-    color: rgb(107, 86, 34);
+    background: rgba(44, 44, 44, 0.5);
+    color: rgb(230, 230, 230);
     font-family: 'Dosis', sans-serif;
     margin-top: auto;
 
@@ -144,7 +194,7 @@ footer a{
    margin-right: 40px;
    margin-bottom: 10px;
    text-decoration: none;
-   color: rgb(107, 86, 34);
+   color: rgb(230, 230, 230);
 }
 
 
