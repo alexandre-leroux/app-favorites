@@ -1,13 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
 
 
-html, body{
-    width: 100%;
-    height: 100%;
+html, body,main {
+
     margin: 0px;
     padding: 0px;
-
 
 }
 
@@ -78,42 +75,169 @@ h1{
 
 
 /* --------------------------------------première section lien store--------------------------------------- */
-
-
-
-#image-accueil-smashing{
+#section1{
     background-image: url(fichiers/maxresdefault-2.jpg);
-    background-size:  100%;
+    height: 100vh;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 800px;
 }
 
-#image-accueil-smashing img{
+#section1 img{
     display: flex;
-    width: 300px;
-    margin-bottom: 40px;
-
-}
-
-#lien-store{
-    width: 300px;
+    width: 15%;
+    margin-bottom: 30px;
     position: relative;
-    top: 50%; left: 70.50%;
+    top: 60vh; left: 71.5%;
+ 
 }
 
 
-/*----------------------------deuxième section capture exemple---------------------*/
 
 
-#présentation-capture{
-    background-image: url(fichiers/x69lvddeyo931.jpg);
-    background-size:  100%;
+
+/* --------------------------------------deuxième section --------------------------------------- */
+
+
+
+#section2{
+    background-image: url(fichiers/quentin-saldi-wallpaper-warrior-2.jpg);
+    height: 100vh;
+    background-size: 100%;
     background-repeat: no-repeat;
-    height: 1000px;
+    display: flex;
+    font-family: 'Caveat Brush', cursive;
+    color: ivory;
+}
+
+#partie-gauche{
+    display: flex;
+    align-content: center;
+    width: 60%;
+    
+
+}
+
+#captures-mobile{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+#captures-mobile img{
+    margin: 30px;
+    width: 40%;
+    box-shadow: 0px 20px 50px rgb(255, 255, 255);
 }
 
 
 
+#texte-description{
+    max-width: 50%;
+    height: 100%;
+    padding-right: 10%;
+}
+
+#texte-description h1{
+    text-align: center;
+    margin-top: 18%;
+    font-size: 6em;
+    text-shadow: 0px 4px 8px rgb(255, 0, 0);
+}
+
+#texte-description p{
+    margin-top: 20%;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.9em;
+
+}
+
+
+
+
+
+
+/* --------------------------------------troisième section --------------------------------------- */
+
+
+
+#section3{
+    background-image: url(fichiers/quentin-saldi-wallpaper-phoenix2.jpg);
+    height: 1300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Caveat Brush', cursive;
+    color: ivory;
+}
+
+#section3 h1{
+    margin-bottom: 170px;
+    font-size: 6em;
+    text-shadow: 0px 4px 6px rgb(255, 0, 0);
+}
+
+#section3 iframe{
+    margin-bottom: 120px;
+}
+
+
+
+
+
+
+
+/* --------------------------------------quatrième section --------------------------------------- */
+
+
+#section4{
+    background-image: url(fichiers/quentin-saldi-wip-16-wallpaper.jpg);
+    height: 1300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-empty{
+    width: 50%;
+}
+
+#div-droite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section4 h1{
+    font-size: 5.5em;
+    text-align: center;
+    width: 80%;
+    font-family: 'Caveat Brush', cursive;
+    color: ivory;
+    text-shadow: 0px 4px 6px rgb(255, 0, 0);
+}
+
+#section4 img{
+    width: 80px;
+}
+
+#section4 ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+#section4 li{
+    margin-right: 15px;
+    margin-left: 15px;
+}
 
 
 
@@ -126,7 +250,7 @@ footer{
     justify-content: space-around;
     font-family: 'Dosis', sans-serif;
     background: rgba(78, 209, 236, 0.5);
-    color: rgb(252, 197, 54);
+    color: rgb(107, 86, 34);
     font-family: 'Dosis', sans-serif;
     margin-top: auto;
 
@@ -149,7 +273,7 @@ footer a{
    margin-right: 40px;
    margin-bottom: 10px;
    text-decoration: none;
-   color: rgb(252, 197, 54);
+   color: rgb(107, 86, 34);
 }
 
 
