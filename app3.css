@@ -84,7 +84,7 @@ h1{
     justify-content: space-around;
     align-items: center;
     font-family: 'Source Code Pro', monospace;
-    height: 50vh;
+    height: 70vh;
 }
 #premier-ecran h1{
     font-size: 3.5em;
@@ -98,6 +98,7 @@ h1{
 #despcription{
     width: 30%;
     padding: 10px;
+ 
 }
 
   #image-presentation{
@@ -105,7 +106,7 @@ h1{
     font-size: 0;
   }
   #image-presentation img{
-    height: 50vh;
+    height: 70vh;
   }
 
   #despcription a{
@@ -146,7 +147,7 @@ h1{
 
 #image-mobile{
   width: 30%;
-  height: 60vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -154,6 +155,7 @@ h1{
 }
 #image-mobile img{
   display: block;
+  height: 30em;
 
 }
 #despcription2{
@@ -169,7 +171,7 @@ h1{
   align-items: center;
   font-family: 'Source Code Pro', monospace;
   background-color:  #ea5168;
-  height: 20vh;
+  height: 30vh;
   width: 100%;
 }
 

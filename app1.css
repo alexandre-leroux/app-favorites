@@ -119,7 +119,7 @@ h1{
 }
 
 #captures-mobile{
-    width: 70%;
+    width: 80%;
     margin: auto;
     text-align: center;
     
@@ -127,7 +127,7 @@ h1{
 
 #captures-mobile img{
     margin: 30px;
-    width: 40%;
+    width: 30%;
     box-shadow: 0px 20px 50px rgb(255, 255, 255);
 }
 
@@ -135,24 +135,24 @@ h1{
 
 #texte-description{
     max-width: 50%;
-    height: 100%;
+    height: 50%;
     padding-right: 10%;
 }
 
 #texte-description h1{
     text-align: center;
-    margin-top: 18%;
+    margin-top: 10%;
     font-size: 6em;
     text-shadow: 0px 4px 8px rgb(255, 0, 0);
 }
 
 #texte-description p{
-    margin-top: 20%;
+    
     text-align: center;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 1.9em;
+    font-size: 1.7em;
 
 }
 
@@ -167,7 +167,7 @@ h1{
 
 #section3{
     background-image: url(fichiers/quentin-saldi-wallpaper-phoenix2.jpg);
-    height: 1300px;
+    height: 100vh;
     background-size: 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -179,13 +179,13 @@ h1{
 }
 
 #section3 h1{
-    margin-bottom: 170px;
+  
     font-size: 6em;
     text-shadow: 0px 4px 6px rgb(255, 0, 0);
 }
 
 #section3 iframe{
-    margin-bottom: 120px;
+   
     border: none;
 }
 
@@ -200,7 +200,7 @@ h1{
 
 #section4{
     background-image: url(fichiers/quentin-saldi-wip-16-wallpaper.jpg);
-    height: 1300px;
+    height: 100vh;
     background-size: 100%;
     background-repeat: no-repeat;
     display: flex;
